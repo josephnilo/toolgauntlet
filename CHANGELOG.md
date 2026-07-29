@@ -4,6 +4,12 @@ All notable changes to ToolGauntlet are tracked here.
 
 The format follows Keep a Changelog conventions, and this project uses semantic versioning for the core Python package.
 
+## [0.1.3] - 2026-07-29
+
+### Changed
+- Added the approved public code-only ToolGauntlet source repository to package metadata and documentation.
+- Moved venture adoption metrics from the private operating repository to the public source repository.
+
 ## [0.1.2] - 2026-07-28
 
 ### Changed

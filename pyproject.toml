@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "toolgauntlet"
-version = "0.1.2"
+version = "0.1.3"
 description = "Deterministic reliability testing for tool-using AI agents"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -37,6 +37,7 @@ dependencies = [
 Homepage = "https://labs.hilomedia.com/products/toolgauntlet"
 Documentation = "https://labs.hilomedia.com/products/toolgauntlet#quickstart"
 Support = "https://labs.hilomedia.com/support"
+Source = "https://github.com/josephnilo/toolgauntlet"
 
 [project.optional-dependencies]
 dev = [
