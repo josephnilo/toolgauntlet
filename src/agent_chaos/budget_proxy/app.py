@@ -335,7 +335,7 @@ def create_app(config: ProxyConfig | None = None) -> FastAPI:
         await state.client.aclose()
         state.telemetry.shutdown()
 
-    app = FastAPI(title="Budget-as-Code Proxy", version="0.1.2", lifespan=lifespan)
+    app = FastAPI(title="Budget-as-Code Proxy", version="0.1.3", lifespan=lifespan)
     app.state.proxy = state
 
     @app.get("/healthz")

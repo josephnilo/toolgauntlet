@@ -171,3 +171,4 @@ pip install "toolgauntlet[redis]"
 - [Public guide](https://labs.hilomedia.com/products/toolgauntlet)
 - [Support](https://labs.hilomedia.com/support)
 - [PyPI package](https://pypi.org/project/toolgauntlet/)
+- [Source code](https://github.com/josephnilo/toolgauntlet)

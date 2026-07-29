@@ -1,5 +1,5 @@
 {
-  "archive_root": "toolgauntlet-0.1.2",
+  "archive_root": "toolgauntlet-0.1.3",
   "distribution": "toolgauntlet",
   "file_count": 70,
   "files": [
@@ -10,8 +10,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "1f8a01470f5485df123699884fc476111b12760f7ac17d0aa827116911fdd8c6",
-      "size": 2260
+      "sha256": "93a6258a63edbbff168f805de2aa32d762cea5c2c2a6b4f1e455eccf5c6f5fd7",
+      "size": 2510
     },
     {
       "path": "LICENSE",
@@ -20,8 +20,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "84726d4baf7be31b6133cc0b6f1d7aff9d9ec8ad59d3e88810ecf6aacb914d34",
-      "size": 4907
+      "sha256": "694845019a0d9d35997459d3d89ff396996f2a8b7a625b025174cad40faeb00d",
+      "size": 4967
     },
     {
       "path": "examples/adapters/README.md",
@@ -50,12 +50,12 @@
     },
     {
       "path": "pyproject.toml",
-      "sha256": "0cce90f4fe3d1204fb2cd15c485700d8a85b4ccefeaef69b4ecd199589e1b067",
-      "size": 2303
+      "sha256": "22e3dd25a3d02409c88485b1003da08cc6efe9cc1f437e148be3db75365bc98f",
+      "size": 2357
     },
     {
       "path": "src/agent_chaos/__init__.py",
-      "sha256": "eebcc2b7de40c0d967982aaf922db7e622e587b0fdfee9086966a56b62853ff2",
+      "sha256": "2f12acb0e812137142fbc056639711608dd29174cffb8ae1634f133d8998c8c9",
       "size": 264
     },
     {
@@ -90,7 +90,7 @@
     },
     {
       "path": "src/agent_chaos/budget_proxy/app.py",
-      "sha256": "32db64f071d7dc43aa46dd31808fd2e4bfcf834b20e23867e27084005efd0327",
+      "sha256": "27d6f2cf7bdb7ba8abc5982f6b2583768b73fd2530bb6732ef3e386a43c9b411",
       "size": 27414
     },
     {
@@ -356,7 +356,7 @@
   ],
   "schema_version": 1,
   "source_archive": {
-    "filename": "toolgauntlet-0.1.2-pypi-20260729.tar.gz",
-    "sha256": "e9fc44e866ebd5ad6d998564baec6d8cf0f7fb2e2c42dd3680fd40b57db7e38e"
+    "filename": "toolgauntlet-0.1.3-pypi.tar.gz",
+    "sha256": "688ee5ab446ebf10102a1ecd968b968e2cac7474cd369386f6410708d0ef2542"
   }
 }
