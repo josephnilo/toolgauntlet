@@ -1,0 +1,362 @@
+{
+  "archive_root": "toolgauntlet-0.1.2",
+  "distribution": "toolgauntlet",
+  "file_count": 70,
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "aed340340916b272fed3b3919b15b6e6eab3c7dd878de4b9e39dd8518bd82a13",
+      "size": 120
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "1f8a01470f5485df123699884fc476111b12760f7ac17d0aa827116911fdd8c6",
+      "size": 2260
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "c33bbdc92c04c9540e5a5772c5219227a04c9944102972f79bb44f39961a8553",
+      "size": 1068
+    },
+    {
+      "path": "README.md",
+      "sha256": "84726d4baf7be31b6133cc0b6f1d7aff9d9ec8ad59d3e88810ecf6aacb914d34",
+      "size": 4907
+    },
+    {
+      "path": "examples/adapters/README.md",
+      "sha256": "984dd5923ab197447ca51f1b5f70d9a9eb97868f4579fb701778ba9e4b40a9a8",
+      "size": 412
+    },
+    {
+      "path": "examples/adapters/async_adapter_example.py",
+      "sha256": "c6b0fb18d62f8603c7a741021a1395bc791faa6a084807ed53d39f7724907921",
+      "size": 940
+    },
+    {
+      "path": "examples/adapters/langchain_like_adapter_example.py",
+      "sha256": "9be8f79c0b7d0efbbdaa1e7bee003270d582afaab005ea235ef55233b7b5f837",
+      "size": 1052
+    },
+    {
+      "path": "examples/budget_proxy/policy.example.yaml",
+      "sha256": "b04e21c1817f64ff0aa9945f31b58f024b39973d9e7b144a3860bb7f33e855a3",
+      "size": 811
+    },
+    {
+      "path": "examples/openai_tool_loop_adapter.py",
+      "sha256": "237b534e26d465c03417691774c4c5bd5eae521637d6dd0e22d3778a7c9a30ac",
+      "size": 736
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "0cce90f4fe3d1204fb2cd15c485700d8a85b4ccefeaef69b4ecd199589e1b067",
+      "size": 2303
+    },
+    {
+      "path": "src/agent_chaos/__init__.py",
+      "sha256": "eebcc2b7de40c0d967982aaf922db7e622e587b0fdfee9086966a56b62853ff2",
+      "size": 264
+    },
+    {
+      "path": "src/agent_chaos/adapters/__init__.py",
+      "sha256": "b1ab2ee5218619dda2ac700da46c1d7437bc696581ed1b4ec8d2978e106dd57a",
+      "size": 472
+    },
+    {
+      "path": "src/agent_chaos/adapters/demo.py",
+      "sha256": "694b271e84638dca94dc25d166588a193697d502503196aa83f6fd62ff61bcb3",
+      "size": 2568
+    },
+    {
+      "path": "src/agent_chaos/adapters/helpers.py",
+      "sha256": "ab775c030775e09532107783931618c61ca43c8c4d345ecf6e86b71fa152d912",
+      "size": 3272
+    },
+    {
+      "path": "src/agent_chaos/adapters/openai_compatible.py",
+      "sha256": "7b823f8560e9c2f0fb01946608a9f6ee84b8b72136f2f38f89cdd91cb45e8e23",
+      "size": 7241
+    },
+    {
+      "path": "src/agent_chaos/adapters/types.py",
+      "sha256": "3dc722b406b22f5360b47e64c3abecb2260aa753df5121f66b8ba45167cd83b0",
+      "size": 335
+    },
+    {
+      "path": "src/agent_chaos/budget_proxy/__init__.py",
+      "sha256": "68175c4326cdbc11b7211925a1c99e25c9f4c9105098bb2edb74a572e6f264ba",
+      "size": 184
+    },
+    {
+      "path": "src/agent_chaos/budget_proxy/app.py",
+      "sha256": "32db64f071d7dc43aa46dd31808fd2e4bfcf834b20e23867e27084005efd0327",
+      "size": 27414
+    },
+    {
+      "path": "src/agent_chaos/budget_proxy/audit.py",
+      "sha256": "754e0c0c2af20db58c92ef7cd696e9e55790c1530fdfe1e8ed2749d36d009464",
+      "size": 780
+    },
+    {
+      "path": "src/agent_chaos/budget_proxy/cli.py",
+      "sha256": "d0f711ee69f521bccfd369e117f431612dfe2b1272cfdb2c5f330205cd139060",
+      "size": 4504
+    },
+    {
+      "path": "src/agent_chaos/budget_proxy/config.py",
+      "sha256": "29e74bdc77a29cb8edb0537a47880f61d3dbb56eebd7479b985b7326b51cf1a9",
+      "size": 3665
+    },
+    {
+      "path": "src/agent_chaos/budget_proxy/costing.py",
+      "sha256": "465c506597d32a2fa95e4f9cec3920b8c0ff8cabd735a2c66830ba405daa2703",
+      "size": 1181
+    },
+    {
+      "path": "src/agent_chaos/budget_proxy/enforcement.py",
+      "sha256": "f1227837505cf163f903414d55f095ba107f3a0fb472f4884dc1ae98beec0a0f",
+      "size": 5163
+    },
+    {
+      "path": "src/agent_chaos/budget_proxy/ledger.py",
+      "sha256": "1b5a875737ec2232136745be669fbf34ac8c685be74dcded9b6af7cc6a3a05f3",
+      "size": 3209
+    },
+    {
+      "path": "src/agent_chaos/budget_proxy/policy.py",
+      "sha256": "f5198c8da2fbe917ff4674d1332793f4acd6fd7a66d7e0f8b93cfcea77e4b74d",
+      "size": 5233
+    },
+    {
+      "path": "src/agent_chaos/budget_proxy/rate_limit.py",
+      "sha256": "ae3c420d7057ec2f3b7e8301bf5cb440fdb9f9167a6aee7fbb70279fa8437964",
+      "size": 3491
+    },
+    {
+      "path": "src/agent_chaos/budget_proxy/redaction.py",
+      "sha256": "3e436f8a19f1a1bee957a3912a3a90696e0ce83e493aad41a4167d259f72d0a9",
+      "size": 1124
+    },
+    {
+      "path": "src/agent_chaos/budget_proxy/types.py",
+      "sha256": "3744b956214de20df9b3a61f10958743d50ed2c30822e37ce64472c8a5be9bd5",
+      "size": 2153
+    },
+    {
+      "path": "src/agent_chaos/budget_proxy/utils.py",
+      "sha256": "6be8242f9f68a7fadebcbd11a6dd2db92fc8022a9fd073eb116eabb535f878c5",
+      "size": 300
+    },
+    {
+      "path": "src/agent_chaos/cli.py",
+      "sha256": "d0bde7ec26253f835cf4b690ef6ca22ba3969e9ec79fa397fddbecbbfde1f22c",
+      "size": 21083
+    },
+    {
+      "path": "src/agent_chaos/config.py",
+      "sha256": "394d9cb042651e288eb8e79a460951792efaf25edfebf45443743266dfda2f64",
+      "size": 616
+    },
+    {
+      "path": "src/agent_chaos/exceptions.py",
+      "sha256": "f424ad759486311552e247a3386a5f936e99c3c2c750da2adc641aedf2b077e8",
+      "size": 449
+    },
+    {
+      "path": "src/agent_chaos/injectors/__init__.py",
+      "sha256": "57881777144dfa199a4886af534a05f781cd1063870639fb201cd02cd6930751",
+      "size": 1785
+    },
+    {
+      "path": "src/agent_chaos/injectors/base.py",
+      "sha256": "bde48d8f162114c5b3b3e879b68aef22cd39dabbe35136c649286ce28b5042c9",
+      "size": 1606
+    },
+    {
+      "path": "src/agent_chaos/injectors/builtins.py",
+      "sha256": "6bb721868d087a2a02adbcab2c02e3e434c639d99690085e67b661b3417ed22f",
+      "size": 8019
+    },
+    {
+      "path": "src/agent_chaos/loader.py",
+      "sha256": "a0c413b33653a43615ddb7498d15b8622e691738ee04eb52c8006d0867dd3b19",
+      "size": 5693
+    },
+    {
+      "path": "src/agent_chaos/models.py",
+      "sha256": "891d9cc802f5a1b9d9a569ccc1faec00b3f0fda92c0b5f93a6046e1d1cf3ce24",
+      "size": 14675
+    },
+    {
+      "path": "src/agent_chaos/pack_signing.py",
+      "sha256": "368a2fba882cfb4462e6b65915d58b4e211bb361a0a0b68b0b0f7ffc6c2a086c",
+      "size": 3192
+    },
+    {
+      "path": "src/agent_chaos/redaction.py",
+      "sha256": "7c2e587fa53923dddc1b25e61fb0a02332e44790a0d808e285b25d9fcc69451a",
+      "size": 1761
+    },
+    {
+      "path": "src/agent_chaos/runner.py",
+      "sha256": "8c7654bad32117cfdcef3d9b0ec4dc8cc340c04bb4c2f6197c56ce8e17c7aa23",
+      "size": 15806
+    },
+    {
+      "path": "src/agent_chaos/scoring.py",
+      "sha256": "5794aaa51056af3c9793d6178fa1acc2f87daf137f0e8648110fb214060f673b",
+      "size": 8039
+    },
+    {
+      "path": "src/agent_chaos/site_builder.py",
+      "sha256": "354e09bdb5103dbc72b2f10f87710f8a9a47d9d4d23820d2ad6ee57c8f1c6bbf",
+      "size": 6232
+    },
+    {
+      "path": "src/agent_chaos/suites.py",
+      "sha256": "8e828dd531a589fe987d52e2b186394982b79b0342ef62dceb18e62dbff9732a",
+      "size": 2879
+    },
+    {
+      "path": "src/agent_chaos/suites/ecommerce_refunds_v1/fixtures/tools.json",
+      "sha256": "43a563f31f2ca4b210d063a07e94f20c7f586e985b497fb5c8f70463f34cdb31",
+      "size": 716
+    },
+    {
+      "path": "src/agent_chaos/suites/ecommerce_refunds_v1/schemas/get_order.json",
+      "sha256": "504060ae139c19034aebe47c0d92e681f31008cf9162a46f5418c57b1489bea0",
+      "size": 543
+    },
+    {
+      "path": "src/agent_chaos/suites/ecommerce_refunds_v1/schemas/issue_refund.json",
+      "sha256": "7dc441a3af756e93d14a84a5c415428f6a10b313b9b3767faeaca03fc1c7e95f",
+      "size": 447
+    },
+    {
+      "path": "src/agent_chaos/suites/ecommerce_refunds_v1/suite.yaml",
+      "sha256": "d58198fe044dd3f4338f30f45ec4b0ee7c4cca9e4b5578b1b8bbd3b50c3b134d",
+      "size": 1717
+    },
+    {
+      "path": "src/agent_chaos/suites/support_triage_v1/fixtures/tools.json",
+      "sha256": "8bee0935ab3814ba9f74ca8fb1fe1a5290e38939847f8497310a73cb54e2e5cc",
+      "size": 782
+    },
+    {
+      "path": "src/agent_chaos/suites/support_triage_v1/schemas/classify_ticket.json",
+      "sha256": "c9070448dc22ed8eb69aa9cd69302a2341e4a5ac6f0eece22b57a37ac082ae5d",
+      "size": 416
+    },
+    {
+      "path": "src/agent_chaos/suites/support_triage_v1/schemas/escalate_ticket.json",
+      "sha256": "7dc4e2c117c416930996e0c41091278b752fa8d6a383df5d28243aef217ef8d9",
+      "size": 375
+    },
+    {
+      "path": "src/agent_chaos/suites/support_triage_v1/schemas/get_ticket.json",
+      "sha256": "4d7c7d675ef5c436cfc0fcff711bf145a0b53a1df62a2ec34dd4acc9c4db5c3a",
+      "size": 462
+    },
+    {
+      "path": "src/agent_chaos/suites/support_triage_v1/suite.yaml",
+      "sha256": "5fb9baaf3bd466a7e1f03eb5f64b10c9e3dbfdc320bbf83720562818b9112401",
+      "size": 1379
+    },
+    {
+      "path": "src/agent_chaos/suites/travel_booking_v1/fixtures/tools.json",
+      "sha256": "2be986f3fa9a43eb9e9422ec8d731972dfa7976884a43c7c79aaeaf6dfe84dc3",
+      "size": 1053
+    },
+    {
+      "path": "src/agent_chaos/suites/travel_booking_v1/schemas/book_flight.json",
+      "sha256": "0089e154a6668cf6152f37bd2f1cfda9ad069dee8fe17a23d6d099493e430c96",
+      "size": 461
+    },
+    {
+      "path": "src/agent_chaos/suites/travel_booking_v1/schemas/get_travel_policy.json",
+      "sha256": "5b5c70e717971d606b1a4d61b7609ac245df1e9773ffea1b30f15e5beb2378c5",
+      "size": 442
+    },
+    {
+      "path": "src/agent_chaos/suites/travel_booking_v1/schemas/search_flights.json",
+      "sha256": "75c6a1ead8fe9db33de0566639a6626569db4c13cd96f84ebe8867ccd15da604",
+      "size": 583
+    },
+    {
+      "path": "src/agent_chaos/suites/travel_booking_v1/suite.yaml",
+      "sha256": "b2cd14383ea93aacce24df467cde5231dcfc05b485212af231c6a1d5a7da0564",
+      "size": 1510
+    },
+    {
+      "path": "src/agent_chaos/telemetry.py",
+      "sha256": "ebc535a4a1c0742410fb09795995bedb6df9cc822cebf89cfc37aa6bcfe26d64",
+      "size": 6548
+    },
+    {
+      "path": "src/agent_chaos/utils.py",
+      "sha256": "f030f9b71691b338a14c7764d625eef9e5826d78a8fe868597e6b44f4b4b2092",
+      "size": 559
+    },
+    {
+      "path": "src/toolgauntlet/__init__.py",
+      "sha256": "1e4d738b7664d5acc27b1cef56d13aa5b4ff4257f4517e2eac8e9aa56411a150",
+      "size": 308
+    },
+    {
+      "path": "src/toolgauntlet/adapters/__init__.py",
+      "sha256": "03c9d61c12fe3a3e9c32f40b7fafc10e505af3060d06dcbb893999b45f3a4a9c",
+      "size": 496
+    },
+    {
+      "path": "src/toolgauntlet/budget_proxy/__init__.py",
+      "sha256": "06f3f897f32ea73f4be9ea8d30594c9e53b85a7564c3fac78ee3f9bcef61f121",
+      "size": 211
+    },
+    {
+      "path": "src/toolgauntlet/budget_proxy/app.py",
+      "sha256": "71eb73f93693313abf225982ae3bada2e0a75202a13042c353bc3434bb46f6c9",
+      "size": 142
+    },
+    {
+      "path": "src/toolgauntlet/budget_proxy/cli.py",
+      "sha256": "660cb56617df5e1b3e03056efe8c6ddf43996a28e7abbc924dfd89058c2f1f1f",
+      "size": 183
+    },
+    {
+      "path": "src/toolgauntlet/budget_proxy/config.py",
+      "sha256": "03a73c6f2f0d1c83fc10613eec732c5d5079c20e6d84cedbe79ff00ea0958305",
+      "size": 149
+    },
+    {
+      "path": "src/toolgauntlet/budget_proxy/types.py",
+      "sha256": "eeed9493822bf59e0155e5ee7266d790385c0794f91b2b00dca7533135848505",
+      "size": 252
+    },
+    {
+      "path": "src/toolgauntlet/cli.py",
+      "sha256": "448c5815ed515674d8b263419b543528fb9c6f18a54a5a0fe77ebbc23b697f71",
+      "size": 187
+    },
+    {
+      "path": "src/toolgauntlet/injectors/__init__.py",
+      "sha256": "0a2dea5e7475638def5c1112d66d381a605c2bb8d9bc2428b300faaaba76a664",
+      "size": 282
+    },
+    {
+      "path": "src/toolgauntlet/suites.py",
+      "sha256": "30e37439f98bc54b87cad8909dfd2c9275177525166ca8783d36c8d5c9e8ed66",
+      "size": 345
+    },
+    {
+      "path": "src/toolgauntlet/telemetry.py",
+      "sha256": "583a7cb0fc09cf0db9eb9bdb4cff1c18ed7e18f10a619d225afd6338854859e6",
+      "size": 215
+    }
+  ],
+  "schema_version": 1,
+  "source_archive": {
+    "filename": "toolgauntlet-0.1.2-pypi-20260729.tar.gz",
+    "sha256": "e9fc44e866ebd5ad6d998564baec6d8cf0f7fb2e2c42dd3680fd40b57db7e38e"
+  }
+}

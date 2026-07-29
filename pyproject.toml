@@ -1,0 +1,90 @@
+[build-system]
+requires = ["hatchling>=1.24"]
+build-backend = "hatchling.build"
+
+[project]
+name = "toolgauntlet"
+version = "0.1.2"
+description = "Deterministic reliability testing for tool-using AI agents"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+license-files = ["LICENSE"]
+authors = [
+  {name = "HiLo Labs"}
+]
+keywords = ["agents", "testing", "chaos-engineering", "evaluation", "llm"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12"
+]
+dependencies = [
+  "PyYAML>=6.0",
+  "jsonschema>=4.21",
+  "fastapi>=0.115",
+  "httpx>=0.27",
+  "prometheus-client>=0.20",
+  "uvicorn>=0.30",
+]
+
+[project.urls]
+Homepage = "https://labs.hilomedia.com/products/toolgauntlet"
+Documentation = "https://labs.hilomedia.com/products/toolgauntlet#quickstart"
+Support = "https://labs.hilomedia.com/support"
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.3",
+  "markdown>=3.6",
+]
+redis = [
+  "redis>=5.0",
+]
+otel = [
+  "opentelemetry-sdk>=1.27",
+  "opentelemetry-exporter-otlp-proto-http>=1.27",
+]
+site = [
+  "markdown>=3.6",
+]
+
+[project.scripts]
+toolgauntlet = "toolgauntlet.cli:main"
+toolgauntlet-proxy = "toolgauntlet.budget_proxy.cli:main"
+agent-chaos = "toolgauntlet.cli:main"
+agent-chaos-proxy = "toolgauntlet.budget_proxy.cli:main"
+
+[project.entry-points."toolgauntlet.injectors"]
+[project.entry-points."toolgauntlet.suites"]
+[project.entry-points."agent_chaos.injectors"]
+[project.entry-points."agent_chaos.suites"]
+
+[tool.hatch.build]
+include = [
+  "/.gitignore",
+  "/README.md",
+  "/CHANGELOG.md",
+  "/LICENSE",
+  "/examples/adapters/**/*.py",
+  "/examples/adapters/README.md",
+  "/examples/budget_proxy/**/*.yaml",
+  "/examples/openai_tool_loop_adapter.py",
+  "/src/agent_chaos/**/*.py",
+  "/src/agent_chaos/**/*.yaml",
+  "/src/agent_chaos/**/*.yml",
+  "/src/agent_chaos/**/*.json",
+  "/src/toolgauntlet/**/*.py",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/agent_chaos", "src/toolgauntlet"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

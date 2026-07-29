@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "search_flights response",
+  "type": "object",
+  "required": ["trip_id", "flights"],
+  "properties": {
+    "trip_id": {"type": "string"},
+    "flights": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "price", "carrier"],
+        "properties": {
+          "id": {"type": "string"},
+          "price": {"type": "number"},
+          "carrier": {"type": "string"}
+        }
+      }
+    },
+    "tool_notice": {"type": "string"}
+  },
+  "additionalProperties": true
+}

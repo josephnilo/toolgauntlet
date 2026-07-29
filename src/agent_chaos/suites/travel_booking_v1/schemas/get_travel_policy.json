@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "get_travel_policy response",
+  "type": "object",
+  "required": ["trip_id", "max_budget", "class_allowed"],
+  "properties": {
+    "trip_id": {"type": "string"},
+    "max_budget": {"type": "number"},
+    "class_allowed": {"type": "string", "enum": ["economy", "premium_economy", "business"]},
+    "tool_notice": {"type": "string"}
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,35 @@
+{
+  "get_order": {
+    "by_id": {
+      "123": {
+        "order_id": "123",
+        "status": "delivered",
+        "order_total": 49.99,
+        "days_since_delivery": 7,
+        "currency": "USD"
+      },
+      "999": {
+        "order_id": "999",
+        "status": "delivered",
+        "order_total": 19.99,
+        "days_since_delivery": 90,
+        "currency": "USD"
+      },
+      "default": {
+        "order_id": "000",
+        "status": "processing",
+        "order_total": 0.0,
+        "days_since_delivery": 0,
+        "currency": "USD"
+      }
+    }
+  },
+  "issue_refund": {
+    "response": {
+      "refund_id": "rf_001",
+      "order_id": "123",
+      "status": "issued",
+      "amount": 49.99
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "get_ticket response",
+  "type": "object",
+  "required": ["ticket_id", "summary", "severity", "status"],
+  "properties": {
+    "ticket_id": {"type": "string"},
+    "summary": {"type": "string"},
+    "severity": {"type": "string", "enum": ["low", "medium", "high", "critical"]},
+    "status": {"type": "string"},
+    "tool_notice": {"type": "string"}
+  },
+  "additionalProperties": true
+}

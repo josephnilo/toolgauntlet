@@ -1,0 +1,40 @@
+allowed_models:
+  - gpt-4o-mini
+  - gpt-4.1-mini
+
+blocked_models:
+  - gpt-4.1
+
+max_input_chars: 16000
+max_output_tokens: 1500
+allow_stream: true
+request_max_estimated_cost_usd: 0.25
+
+monthly_budget_usd:
+  default: 100.0
+  staging: 25.0
+  prod: 300.0
+
+requests_per_minute:
+  default: 120
+  staging: 30
+
+# Optional project-scoped API keys for proxy clients.
+# When set, requests must include x-project-api-key (or BUDGET_PROJECT_API_KEY_HEADER).
+project_api_keys: {}
+
+default_model_rate:
+  prompt_per_1k_tokens: 0.0002
+  completion_per_1k_tokens: 0.0008
+
+model_rates:
+  gpt-4o-mini:
+    prompt_per_1k_tokens: 0.00015
+    completion_per_1k_tokens: 0.0006
+  gpt-4.1-mini:
+    prompt_per_1k_tokens: 0.0003
+    completion_per_1k_tokens: 0.0012
+
+safe_logging: true
+redact_request_body: true
+redact_response_body: true

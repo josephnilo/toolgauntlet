@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "issue_refund response",
+  "type": "object",
+  "required": ["refund_id", "order_id", "status", "amount"],
+  "properties": {
+    "refund_id": {"type": "string"},
+    "order_id": {"type": "string"},
+    "status": {"type": "string", "enum": ["issued", "rejected"]},
+    "amount": {"type": "number"},
+    "tool_notice": {"type": "string"}
+  },
+  "additionalProperties": true
+}

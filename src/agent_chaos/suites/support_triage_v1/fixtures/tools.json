@@ -1,0 +1,38 @@
+{
+  "get_ticket": {
+    "by_id": {
+      "5001": {
+        "ticket_id": "5001",
+        "summary": "Production outage in EU region",
+        "severity": "critical",
+        "status": "open"
+      },
+      "5002": {
+        "ticket_id": "5002",
+        "summary": "Password reset request",
+        "severity": "low",
+        "status": "open"
+      },
+      "default": {
+        "ticket_id": "5000",
+        "summary": "General request",
+        "severity": "medium",
+        "status": "open"
+      }
+    }
+  },
+  "classify_ticket": {
+    "response": {
+      "ticket_id": "5001",
+      "category": "incident",
+      "priority": "high"
+    }
+  },
+  "escalate_ticket": {
+    "response": {
+      "ticket_id": "5001",
+      "escalated": true,
+      "owner": "oncall-engineer"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "get_travel_policy": {
+    "by_id": {
+      "7001": {
+        "trip_id": "7001",
+        "max_budget": 550.0,
+        "class_allowed": "economy"
+      },
+      "7999": {
+        "trip_id": "7999",
+        "max_budget": 300.0,
+        "class_allowed": "economy"
+      },
+      "default": {
+        "trip_id": "7000",
+        "max_budget": 400.0,
+        "class_allowed": "economy"
+      }
+    }
+  },
+  "search_flights": {
+    "by_id": {
+      "7001": {
+        "trip_id": "7001",
+        "flights": [
+          {"id": "FL-101", "price": 280.0, "carrier": "Hilo Air"},
+          {"id": "FL-102", "price": 340.0, "carrier": "Coastline"}
+        ]
+      },
+      "7999": {
+        "trip_id": "7999",
+        "flights": [
+          {"id": "FL-909", "price": 990.0, "carrier": "PremiumJet"}
+        ]
+      },
+      "default": {
+        "trip_id": "7000",
+        "flights": []
+      }
+    }
+  },
+  "book_flight": {
+    "response": {
+      "booking_id": "BK-001",
+      "trip_id": "7001",
+      "flight_id": "FL-101",
+      "status": "booked"
+    }
+  }
+}

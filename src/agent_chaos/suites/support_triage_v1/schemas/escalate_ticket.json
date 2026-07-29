@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "escalate_ticket response",
+  "type": "object",
+  "required": ["ticket_id", "escalated", "owner"],
+  "properties": {
+    "ticket_id": {"type": "string"},
+    "escalated": {"type": "boolean"},
+    "owner": {"type": "string"},
+    "tool_notice": {"type": "string"}
+  },
+  "additionalProperties": true
+}
